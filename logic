@@ -1,0 +1,33 @@
+// this is one logic 
+
+    if (dice !== 1){
+        roundScore += dice ;
+        document.querySelector('#current-' + activePlayer).textContent = roundScore;
+    } else {
+        // next player 
+        if ( (dice === 1 && activePlayer === 0) ){
+            roundScore = 0 ;
+            document.querySelector('#current-' + activePlayer ).textContent = roundScore ;  
+             activePlayer = 1 ;
+        } else if( dice === 1 && activePlayer === 1){
+            roundScore = 0;
+            document.querySelector('#current-' + activePlayer).textContent = roundScore;
+            activePlayer = 0;
+        }
+    }
+    
+    
+    // or this logic also works 
+    
+     if (dice !== 1){
+       roundScore += dice ;
+       document.querySelector('#current-'+ activePlayer).textContent = roundScore;
+   } else if( dice === 1 && activePlayer === 0){
+       roundScore = 0 ;
+       document.querySelector('#current-'+ activePlayer).textContent = roundScore;
+       activePlayer = 1;
+   } else if (dice ===1 && activePlayer === 1){
+        roundScore = 0 ;
+        document.querySelector('#current-'+ activePlayer).textContent = roundScore;
+        activePlayer = 0;
+   }
