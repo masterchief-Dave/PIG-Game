@@ -10,7 +10,7 @@ Pig game from Jonas Schmedtmann Js tutorial
 - The first player to reach 20 points on GLOBAL score wins the game
 
 
-![image of the game](https://github.com/davieoba/PIG-Game/blob/master/pig-game1.png)
+![image of the game](https://github.com/davieoba/PIG-Game/blob/master/game-1.png)
 
 
 ## Features to implement 💡🤔
@@ -22,4 +22,4 @@ Pig game from Jonas Schmedtmann Js tutorial
 - [ ] Implement a feature where the players can set the score for winning. Example I may change the Score that make me a winner @ 20 to 40 .
 - [ ] Make the game responsive on mobile 
 
-![image of the game when someone wins](https://github.com/davieoba/PIG-Game/blob/master/pig-game2.png)
+![image of the game when someone wins](https://github.com/davieoba/PIG-Game/blob/master/game-2.png)
